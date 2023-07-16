@@ -10,11 +10,39 @@ body{
 h1{
     text-align: center;
     font-size: 42px;
+    margin-bottom: 18px;
 }
 
 .inform{
    text-align: center; 
+   margin-top: 18px;
+   margin-bottom: 18px;
 }
+
+/*Formatando o menu*/
+.redes{
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: right; 
+}
+
+.redes li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.redes a{
+    background-color: #c1bebe;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.redes a:hover{
+    background-color: #baa7f0b0;
+    text-decoration: none;
+}
+/*Fim da formatação do menu*/
 
 h2{
     font-size: 30px;
